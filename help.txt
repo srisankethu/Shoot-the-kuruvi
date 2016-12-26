@@ -1,0 +1,94 @@
+								SHOOT THE KURUVI
+
+It is a simple 4-level game where you have a shooter,kuruvi(sparrow) and two obstacles.You need to hit the sparrow to get points.When you hit 10 sparrow then you get to hit a spaceship.You will proceed to the next level when you reach 100 points.You can play in three different modes and can shift to any mode of play at any time.You can play normally(default) or by a launcher.
+
+Use of a launcher you ask? Can shoot at an angle and increase reach(In Y and obviously in X)
+
+Note: Do not hold the shooter for too long(Press SPACEBAR).Your hands are gonna pain and you will be unable to shoot(Additional feature is time between GLFW_KEY_PRESS and GLFW_KEY_RELEASE is more).
+
+Features:
+
+	Basic features:
+
+	1.Laws of motion(gravity,air friction)
+	2.Gravity
+	3.Friction(air friction)
+	4.Collision(With kuruvi and obstacles)
+	5.Co-efficient of restitution=0.5
+	6.Varting launch speeds
+	7.Zoom effects
+
+	All the basic features asked for are implemented
+	
+	Additional features:
+	
+	1.Cheats(Restricted and Unrestricted)
+	2.Modes of play
+	3.Four levels
+	4.Additional feature(refer note) to give more human like experience
+
+CONTROLS:
+
+Basic Movement:
+
+Keyboard:
+	Press A/LEFT to move the shooter to the left
+	Press D/RIGHT to move the shooter to the right
+	Press W/UP to move the launcher to the anti-clockwise
+	Press S/DOWN to move the launcher to the clockwise
+	Press SPACEBAR to shoot
+
+Friction:
+	Press F to activate air friction(Press again to de-activate)
+
+Launcher:
+	Press L to activate launcher
+	Press N to de-activate launcher
+
+Zoom:
+
+	Press 8(On the left/KP_8) to zoom in
+	Press 2(On the left/KP_2) to zoom out
+	Press 5(On the left/KP_5) to set zoom to normal
+	
+Modes:
+
+	Press 7(On the left/KP_7) to play Mode1(Press again to reset)
+	Press 9(On the left/KP_9) to play Mode2(Press again to reset)
+	Press 0(On the left/KP_0) to play Mode3(Press again to reset)
+
+Cheats
+
+	Press R to reset Cheats(Only resets Obstacles)
+	Press OBJ to remove Obstacles(Unrestricted cheat)
+	Press GUY to increase your score by 100 if your score is less than 500(Restricted cheat)
+	Press 619 to remove cheat restriction
+
+Mouse:
+	Similar to keyboard movements.
+	Click LEFT Mouse Button to shoot
+
+MODES:
+	Mode1: Reverse movements
+	Mode2: Inverts display
+	Mode3: Reverses movements and inverts display
+
+LEVELS:
+
+	Level1:
+		Simple movement of kuruvi(sparrow) and two obstacles in X-direction
+
+	Level2:
+		Kuruvi(sparrow) gives a little movement in Y to its normal motion in X.Movement is like a wave.
+
+	Level3:	
+		Obstacles gives a little movement in Y to its normal motion in X.Movement is like a wave.
+
+	Level4:
+		Kuruvi(sparrow) gives a little movement in Y to its normal motion in X.Movement is like a wave.
+		Obstacles gives a little movement in Y to its normal motion in X.Movement is like a wave.
+
+DISPLAY:
+
+	For score display,level display or messages look at the terminal
+
